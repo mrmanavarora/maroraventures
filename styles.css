@@ -692,78 +692,13 @@ body {
   gap: 0.75rem;
 }
 
-/* Inline Interactive Demo: ASIN Quick Inspector */
-.tool-showcase {
-  background: var(--bg-card);
-  border: 1px solid var(--border-hover);
-  border-radius: 1.25rem;
-  padding: 2.25rem;
-  margin-bottom: 5.5rem;
-  box-shadow: var(--shadow-card);
-  position: relative;
-  overflow: hidden;
-}
-
-.tool-showcase::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(circle, var(--ikb-glow) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.tool-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1.75rem;
-}
-
-.asin-input-bar {
-  display: flex;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.asin-input {
-  flex: 1;
-  min-width: 260px;
-  padding: 0.75rem 1rem;
-  border-radius: 0.65rem;
-  border: 1px solid var(--border-medium);
-  background: var(--bg-page);
-  color: var(--text-main);
-  font-family: var(--font-mono);
-  font-size: 0.95rem;
-  text-transform: uppercase;
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
-}
-
-.asin-input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-light);
-}
-
-.asin-results {
-  background: var(--bg-page);
-  border-radius: 0.75rem;
-  border: 1px solid var(--border-light);
-  padding: 1.25rem;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  display: none;
-}
-
-.asin-results.active {
-  display: block;
-  animation: fadeIn 0.3s ease;
+/* Flagship Product Showcase Layout */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  max-width: 840px;
+  margin: 0 auto 5rem;
+  gap: 1.75rem;
 }
 
 /* Philosophy / Studio Thesis Section */

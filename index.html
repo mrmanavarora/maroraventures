@@ -82,7 +82,6 @@
       <nav aria-label="Main Navigation">
         <ul class="nav-links">
           <li><a href="#products">Products</a></li>
-          <li><a href="#inspector">ASIN Inspector</a></li>
           <li><a href="#philosophy">Philosophy</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -162,7 +161,7 @@
         <div class="filter-container" role="toolbar" aria-label="Filter products by category">
           <button class="filter-btn active" data-filter="all">
             <span>All</span>
-            <span class="filter-count">4</span>
+            <span class="filter-count">1</span>
           </button>
           <button class="filter-btn" data-filter="chrome-extension">
             <span>Chrome Extension</span>
@@ -170,18 +169,6 @@
           </button>
           <button class="filter-btn" data-filter="amazon-tools">
             <span>Amazon Tools</span>
-            <span class="filter-count">3</span>
-          </button>
-          <button class="filter-btn" data-filter="saas">
-            <span>SaaS</span>
-            <span class="filter-count">2</span>
-          </button>
-          <button class="filter-btn" data-filter="free-tools">
-            <span>Free Tools</span>
-            <span class="filter-count">2</span>
-          </button>
-          <button class="filter-btn" data-filter="templates">
-            <span>Templates</span>
             <span class="filter-count">1</span>
           </button>
         </div>
@@ -189,8 +176,8 @@
         <!-- Products Grid -->
         <div class="products-grid">
 
-          <!-- Product 1: AzASIN (Flagship Feature) -->
-          <article class="product-card featured" data-categories="chrome-extension,amazon-tools,saas">
+          <!-- Product 1: AzASIN (Flagship MVP) -->
+          <article class="product-card featured" data-categories="chrome-extension,amazon-tools">
             <div class="card-header">
               <div class="card-icon" style="background: rgba(0, 47, 167, 0.12); color: var(--accent);">
                 <!-- Chrome / Bolt Icon -->
@@ -210,28 +197,27 @@
             </div>
 
             <p class="card-description">
-              Supercharge Amazon product intelligence directly inside your browser. Instant ASIN extraction, competitive seller data, margin insights, and listing analytics without switching tabs.
+              Supercharge Amazon product intelligence directly inside your browser. Fast ASIN research, seller intelligence, and listing insights built to eliminate research friction.
             </p>
 
             <ul class="card-feature-list">
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                One-click bulk ASIN capture & export
+                In-browser ASIN intelligence & quick extraction
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Automated Keepa & CamelCamelCamel sync
+                Purpose-built for Amazon sellers and researchers
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Real-time FBA fee & unit margin estimator
+                Streamlined Chrome Extension workflow
               </li>
             </ul>
 
             <div class="card-tags">
               <span class="tag-pill">Chrome Extension</span>
               <span class="tag-pill">Amazon Tools</span>
-              <span class="tag-pill">SaaS</span>
             </div>
 
             <div class="card-footer">
@@ -244,197 +230,6 @@
             </div>
           </article>
 
-          <!-- Product 2: ASIN Batch Inspector (Live Free Micro-Tool) -->
-          <article class="product-card" data-categories="amazon-tools,free-tools">
-            <div class="card-header">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              </div>
-              <div class="card-badges">
-                <span class="status-badge live">Live Tool</span>
-              </div>
-            </div>
-
-            <div class="card-title-group">
-              <h3 class="card-title">ASIN Instant Inspector</h3>
-              <p class="card-tagline">Client-side Amazon identifier utility.</p>
-            </div>
-
-            <p class="card-description">
-              Lightweight browser tool for e-commerce sellers and researchers to validate 10-character ASINs, verify check patterns, and launch tracking analysis without logins.
-            </p>
-
-            <ul class="card-feature-list">
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                100% client-side & zero data collection
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Instant URL deep-linking for 3 tracking platforms
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Completely free to use forever
-              </li>
-            </ul>
-
-            <div class="card-tags">
-              <span class="tag-pill">Free Tools</span>
-              <span class="tag-pill">Amazon Tools</span>
-            </div>
-
-            <div class="card-footer">
-              <a href="#inspector" class="btn btn-secondary btn-sm">
-                Try Live Below ↓
-              </a>
-              <span style="font-size: 0.8rem; font-family: var(--font-mono); color: #10b981; font-weight: 600;">
-                Free Forever
-              </span>
-            </div>
-          </article>
-
-          <!-- Product 3: Solopreneur Ship Stack (Template) -->
-          <article class="product-card" data-categories="templates,free-tools">
-            <div class="card-header">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-              </div>
-              <div class="card-badges">
-                <span class="status-badge live">Live Code</span>
-              </div>
-            </div>
-
-            <div class="card-title-group">
-              <h3 class="card-title">Solopreneur Ship Stack</h3>
-              <p class="card-tagline">Zero-build GitHub Pages portfolio template.</p>
-            </div>
-
-            <p class="card-description">
-              The exact clean, high-converting framework powering Marora Ventures. No Node modules, no Webpack bundles—just pure semantic HTML5, modern CSS tokens, and instant deployment.
-            </p>
-
-            <ul class="card-feature-list">
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Auto system dark/light theme switching
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Native GitHub Pages (.nojekyll) ready
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Zero maintenance & 100/100 Lighthouse performance
-              </li>
-            </ul>
-
-            <div class="card-tags">
-              <span class="tag-pill">Templates</span>
-              <span class="tag-pill">Free Tools</span>
-            </div>
-
-            <div class="card-footer">
-              <a href="#contact" class="btn btn-secondary btn-sm" data-copy="maroraventures@gmail.com">
-                Request Source
-              </a>
-              <span style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-muted);">
-                GitHub Pages Ready
-              </span>
-            </div>
-          </article>
-
-          <!-- Product 4: MarginFlow (Pipeline SaaS) -->
-          <article class="product-card" data-categories="saas,amazon-tools">
-            <div class="card-header">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-              </div>
-              <div class="card-badges">
-                <span class="status-badge beta">In Development</span>
-              </div>
-            </div>
-
-            <div class="card-title-group">
-              <h3 class="card-title">MarginFlow</h3>
-              <p class="card-tagline">Automated FBA unit economics tracker.</p>
-            </div>
-
-            <p class="card-description">
-              Real-time Amazon fee discrepancy monitoring, storage cost auditor, and true SKU net profit calculations. Never let unexpected fulfillment fee hikes eat your margins.
-            </p>
-
-            <ul class="card-feature-list">
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Instant fee increase alerts
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                SKU contribution margin breakdown
-              </li>
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Weekly executive profitability digest
-              </li>
-            </ul>
-
-            <div class="card-tags">
-              <span class="tag-pill">SaaS</span>
-              <span class="tag-pill">Amazon Tools</span>
-            </div>
-
-            <div class="card-footer">
-              <button class="btn btn-secondary btn-sm open-waitlist-btn">
-                Join Beta Waitlist
-              </button>
-              <span style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-muted);">
-                Coming Soon
-              </span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Interactive Free Utility: ASIN Instant Inspector -->
-    <section id="inspector" class="container">
-      <div class="tool-showcase">
-        <div class="tool-header">
-          <div>
-            <span class="section-tag">Interactive Studio Tool</span>
-            <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.25rem;">
-              ASIN Instant Inspector
-            </h3>
-            <p style="font-size: 0.925rem; color: var(--text-sub);">
-              Test Marora Ventures' identifier parsing engine. Paste an ASIN or click a sample to generate direct tracking links.
-            </p>
-          </div>
-          <div style="display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;">
-            <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">Samples:</span>
-            <button class="sample-chip btn btn-secondary btn-sm" data-asin="B08N5WRWNW" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">MacBook M1</button>
-            <button class="sample-chip btn btn-secondary btn-sm" data-asin="B07PPDJ6Z8" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">Kindle Paperwhite</button>
-            <button class="sample-chip btn btn-secondary btn-sm" data-asin="B09B8V1LZ3" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">Echo Dot</button>
-          </div>
-        </div>
-
-        <div class="asin-input-bar">
-          <input 
-            type="text" 
-            id="asin-input" 
-            class="asin-input" 
-            placeholder="Enter 10-character ASIN (e.g. B08N5WRWNW)" 
-            maxlength="10"
-            aria-label="Amazon ASIN Input"
-          >
-          <button id="asin-inspect-btn" class="btn btn-primary">
-            Inspect ASIN
-          </button>
-        </div>
-
-        <div id="asin-results" class="asin-results" aria-live="polite">
-          <!-- Populated by main.js upon inspection -->
         </div>
       </div>
     </section>
@@ -533,7 +328,6 @@
 
       <div class="footer-links">
         <a href="#products">Products</a>
-        <a href="#inspector">ASIN Tool</a>
         <a href="#philosophy">Philosophy</a>
         <a href="mailto:maroraventures@gmail.com">maroraventures@gmail.com</a>
       </div>
