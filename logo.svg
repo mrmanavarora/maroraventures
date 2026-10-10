@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor">
+  <!-- Left Triangle -->
+  <polygon points="101,360 266,139 266,562" />
+  <!-- Right Triangle -->
+  <polygon points="923,360 757,139 757,562" />
+  <!-- Letter M -->
+  <polygon points="312,139 384,139 511.5,335 639,139 711,139 711,534 639,534 639,250 511.5,453 384,250 384,534 312,534" />
+  <!-- Letter V -->
+  <polygon points="312,588 384,588 511.5,775 639,588 711,588 511.5,911" />
+</svg>
